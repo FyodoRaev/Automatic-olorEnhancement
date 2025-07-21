@@ -8,8 +8,6 @@ https://github.com/google/hdrnet
 
 > there is no pretrained models, as there still problems with network training (no one knows why)
 
-Идея такая - структура модели же, ее граф, описан в статье - а на каком фреймворке это написано не должно иметь большого значения.
-То есть хочется на пайторче написать структуру модели и перевести те веса из TensorFlow в Pytorch
 
 **EricElmoznino/deep_bilateral_network (PyTorch)** – развёрнутый PyTorch-код для «черного ящика» HDRNet [github.com](https://github.com/EricElmoznino/deep_bilateral_network#:~:text=,preferably%2C%20but%20not%20necessary). Требует PyTorch ≥0.4, Python 3.6+ и ряд библиотек (`tensorboardX`, OpenCV, scikit-video)[github.com](https://github.com/EricElmoznino/deep_bilateral_network#:~:text=,preferably%2C%20but%20not%20necessary). Содержится C++-слой для операции билинейной сетки: его нужно собрать командой
 
